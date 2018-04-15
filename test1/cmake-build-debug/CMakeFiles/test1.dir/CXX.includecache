@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/CLionProjects/test1/common.cpp
+common.h
+/home/ubuntu/CLionProjects/test1/common.h
+
+/home/ubuntu/CLionProjects/test1/common.h
+NvInfer.h
+/home/ubuntu/CLionProjects/test1/NvInfer.h
+string
+-
+vector
+-
+fstream
+-
+cassert
+-
+iostream
+-
+
+/home/ubuntu/CLionProjects/test1/main.cpp
+chrono
+-
+cstdlib
+-
+cassert
+-
+sys/stat.h
+-
+iostream
+-
+NvInfer.h
+-
+NvUffParser.h
+-
+NvUtils.h
+-
+common.h
+/home/ubuntu/CLionProjects/test1/common.h
+

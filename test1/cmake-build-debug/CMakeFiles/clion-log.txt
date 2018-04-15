@@ -1,0 +1,10 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ubuntu/CLionProjects/test1
+-- Found OpenCV: /usr (found version "4.0.0") 
+--     CUDA_INCLUDE_DIRS: /usr/local/cuda-9.0/include
+--     CUDA_LIBRARIES: /usr/local/cuda-9.0/lib64/libcudart.so
+--     OpenCV version: 4.0.0
+--     OpenCV libraries: opencv_dnn;opencv_cudafeatures2d;opencv_imgcodecs;opencv_cudacodec;opencv_cudaoptflow;opencv_cudalegacy;opencv_shape;opencv_stitching;opencv_videostab;opencv_features2d;opencv_photo;opencv_core;opencv_video;opencv_highgui;opencv_cudafilters;opencv_ml;opencv_objdetect;opencv_flann;opencv_imgproc;opencv_cudastereo;opencv_cudawarping;opencv_cudaobjdetect;opencv_cudabgsegm;opencv_calib3d;opencv_cudev;opencv_cudaimgproc;opencv_cudaarithm;opencv_videoio;opencv_superres
+--     OpenCV include path: /usr/include;/usr/include/opencv
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/CLionProjects/test1/cmake-build-debug
