@@ -62,6 +62,7 @@ std::map<std::string, Weights> loadWeights(const std::string file)
             }
             wt.values = val;
         }
+		printf("nums of values in %s: %u)\n", name, size);
         wt.count = size;
         weightMap[name] = wt;
     }
@@ -105,6 +106,8 @@ createMNISTEngine(unsigned int maxBatchSize, IBuilder *builder, DataType dt)
 	auto conv1 = network->addConvolution(*scale_1->getOutput(0), 20, DimsHW{5, 5}, weightMap["conv1filter"], weightMap["conv1bias"]);
 	assert(conv1 != nullptr);
 	conv1->setStride(DimsHW{1, 1});
+
+
 
 	// Add a max pooling layer with stride of 2x2 and kernel size of 2x2.
 	auto pool1 = network->addPooling(*conv1->getOutput(0), PoolingType::kMAX, DimsHW{2, 2});

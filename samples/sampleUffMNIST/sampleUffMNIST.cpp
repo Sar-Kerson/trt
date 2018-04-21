@@ -58,7 +58,7 @@ static const int OUTPUT_SIZE = 10;
 
 std::string locateFile(const std::string& input)
 {
-    std::vector<std::string> dirs{"data/mnist/", "data/samples/mnist/"};
+    std::vector<std::string> dirs{"data/mnist/"};
     return locateFile(input,dirs);
 }
 
@@ -256,7 +256,7 @@ void execute(ICudaEngine& engine)
 
 int main(int argc, char** argv)
 {
-    auto fileName = locateFile("/home/ubuntu/SarKerson/DehazeNet/model.uff");
+    auto fileName = locateFile("model.uff");
     std::cout << fileName << std::endl;
 
     int maxBatchSize = 1;
